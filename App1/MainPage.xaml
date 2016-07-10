@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlockRas" HorizontalAlignment="Center" Margin="184,40,184,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FFFD0000" />
+        <TextBlock x:Name="textBlockRas" HorizontalAlignment="Center" Margin="184,40,184,0" TextWrapping="Wrap" Text="RasmussenCollege" VerticalAlignment="Top" Foreground="#FFFD0000" />
 
     </Grid>
 </Page>
