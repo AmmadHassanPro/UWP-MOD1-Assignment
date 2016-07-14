@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="textBlockRas" HorizontalAlignment="Center" Margin="184,40,184,0" TextWrapping="Wrap" Text="RasmussenCollege" VerticalAlignment="Top" Foreground="#FFFD0000" />
+        <TextBlock x:Name="textBlockDisplay" HorizontalAlignment="Left" Margin="1015,142,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
