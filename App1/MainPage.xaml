@@ -12,6 +12,7 @@
         <TextBlock x:Name="textBlockDisplay" HorizontalAlignment="Left" Margin="1014,154,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top"/>
         <TextBox x:Name="txtBoxInput1" HorizontalAlignment="Left" Margin="159,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
         <TextBox x:Name="txtBoxInput2" HorizontalAlignment="Left" Margin="477,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="125"/>
+        <Button x:Name="buttonCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="612,258,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
