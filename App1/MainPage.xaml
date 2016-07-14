@@ -8,9 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlockRas" HorizontalAlignment="Center" Margin="184,40,184,0" TextWrapping="Wrap" Text="RasmussenCollege" VerticalAlignment="Top" Foreground="#FFFD0000" />
+        <TextBlock x:Name="textBlockRas" HorizontalAlignment="Center" Margin="184,40,184,0" TextWrapping="Wrap" Text="RasmussenCollege" VerticalAlignment="Top" Foreground="#FFFD0000" SelectionChanged="textBlockRas_SelectionChanged" />
         <TextBlock x:Name="textBlockDisplay" HorizontalAlignment="Left" Margin="1015,142,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtBoxInput1" HorizontalAlignment="Left" Margin="159,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxInput1" HorizontalAlignment="Left" Margin="159,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txtBoxInput2" HorizontalAlignment="Left" Margin="477,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="125"/>
 
     </Grid>
 </Page>
