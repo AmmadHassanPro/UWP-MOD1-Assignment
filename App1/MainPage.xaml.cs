@@ -33,6 +33,18 @@ namespace App1
 
         }
 
-     
+        private void buttonCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            float val1= (float)Convert.ToDouble(txtBoxInput1.Text);
+            float val2 = (float)Convert.ToDouble(txtBoxInput2.Text);
+            float r = ProcessCalc(val1, val2);
+            textBlockDisplay.Text = Convert.ToString(r);
+        }
+        public float ProcessCalc(float par1, float par2) {
+           
+            float result = 0;
+            result = par1 + par2;
+            return result;
+        }
     }
 }
